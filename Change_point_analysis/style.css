@@ -1,0 +1,51 @@
+/*.title-slide {
+    background-image: url(Violent_off.png);
+    background-position: 50% 10%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 60% 60%;
+} */
+
+
+.title-slide hgroup {
+  position: absolute;
+  width: auto;
+  height: auto;
+  right: 10px;
+  bottom: 10px;
+}
+
+/* make the text white on the title slide and aligned to the bottom */
+.title-slide hgroup > h1, 
+.title-slide hgroup > h2,
+.title-slide hgroup > p {
+  margin:5;
+  color: #000099 ;  /*white*/
+  text-align: left;
+}
+
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+/* make the colour dark blue of the headers */
+h1 { color: #000099; }
+h2 { color: #000099; }
+h3 { color: #000099; }
+h4 { color: #000099; }
+h5 { color: #000099; }
+h6 { color: #000099; }
+
+/* format the paragaphs here they are just dark blue text */
+p {
+	
+    color: #000099;
+}
+
+
+
+
+ 
+ 

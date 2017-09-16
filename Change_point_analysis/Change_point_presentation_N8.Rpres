@@ -1,0 +1,43 @@
+---
+title: "Analysing interventions in time, the Changepoint package"
+author: "Kerry Cella"
+date: "16 September 2017"
+css: style.css
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+library(tidyverse); library(changepoint)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## This session
+
+- Context
+- What is changepoint analysis
+- Why use it
+- When to use it
+- Case Study: Sexual offences on public trasnport
+
+
+## The context
+
+Understanding the impact of policing interventions is essential to builidng an evidence base.
+
+
+## Crime trends
+
+We often plot time series and use these 
+
+## Slide with R Output
+
+```{r cars, echo = TRUE}
+summary(cars)
+```
+
+## Slide with Plot
+
+```{r pressure}
+plot(pressure)
+```
+
